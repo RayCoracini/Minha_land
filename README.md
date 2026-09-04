@@ -22,6 +22,10 @@ Como o projeto não possui dependências, basta abrir o arquivo principal no nav
 1. Abra a pasta do projeto
 2. Clique duas vezes no arquivo `index.html`
 
+ou 
+
+acessar: https://raycoracini.github.io/Minha_land/
+
 > Dica: Utilize a extensão **Live Server** no VS Code para uma melhor experiência de desenvolvimento.
 
 ## 🚀 Próximos Passos
