@@ -571,6 +571,9 @@ header {
 
 @media (max-width: 768px) {
 
+    .menu-principal {
+        display: none;
+    }
     .hero {
         justify-content: center;
         text-align: center;
