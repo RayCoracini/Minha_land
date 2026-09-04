@@ -29,7 +29,7 @@ Como o projeto não possui dependências, basta abrir o arquivo principal no nav
 - [ ] Adicionar interatividade com JavaScript  
 - [ ] Implementar animações e micro-interações  
 - [ ] Melhorar a responsividade  
-- [ ] Incluir novas seções e funcionalidades  
+- [ ] Incluir novas funcionalidades  
 
 ## 👨‍💻 Autor
 
