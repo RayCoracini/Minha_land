@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*outline: 1px solid red;*/
 }
 
 html {
@@ -59,7 +58,9 @@ p {
 }
 
 header {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
     position: relative;
     background-color: #131313;
     border-bottom: 2px solid #373a2a; 
@@ -81,15 +82,14 @@ header {
     display: block;
     color: var(--primaria);
     line-height: 1.1;
-    font-size:  25px;
-    font-weight: 700;
+    font-size:  1.4rem;
+    font-weight: bold;
     text-align: center;
     text-shadow: 0 0 15px #d2f000 ;
 }
 
 .lista{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
     gap: 20px;
@@ -99,7 +99,7 @@ header {
 .menu-principal a {
     text-decoration: none;
     color: #DDDDDD;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .menu-principal a:hover {
@@ -565,4 +565,43 @@ header {
     border-top: 2px solid #373a2a;
     font-size: 12px;
     color: #36332b;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards_servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .comments {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .conteudo_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
