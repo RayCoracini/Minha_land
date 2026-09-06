@@ -88,6 +88,10 @@ header {
     text-shadow: 0 0 15px #d2f000 ;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 .lista{
     display: flex;
     align-items: center;
@@ -155,6 +159,7 @@ header {
 
 .conteudo h1 {
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 .conteudo h1 span {
@@ -574,6 +579,11 @@ header {
     .menu-principal {
         display: none;
     }
+
+    .menu-container .botao_contato {
+        display: none;
+    }
+    
     .hero {
         justify-content: center;
         text-align: center;
@@ -583,6 +593,10 @@ header {
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .hero-button a {
+        justify-content: center;
     }
 
     .cards_servicos {
